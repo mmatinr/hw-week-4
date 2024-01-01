@@ -10,7 +10,7 @@ cin >> n;
     s=m+n ;
 	s=s-n ;
 	s=s*n ;
-	s=s/n ;
+	(int)s % (int)n;
 	cout<< s << "is your result";
 	
 }
